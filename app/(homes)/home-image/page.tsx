@@ -21,7 +21,7 @@ export default function Home() {
     <>
       <Header1 />
       <ParallaxBackground />
-      <Profile profileImage="/img/avatars/vrunda_avatar.png" />
+      <Profile profileImage="/img/avatars/vrunda_avatar.jpg" />
       <div id="content" className="content">
         <div className="content__wrapper">
           <Intro />

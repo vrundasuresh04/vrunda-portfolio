@@ -10,6 +10,11 @@
     "caption": "React"
   },
   {
+    "src": "/img/icons/icon-javascript.svg",
+    "alt": "JavaScript Icon",
+    "caption": "JavaScript"
+  },
+  {
     "src": "/img/icons/icon-mongodb.svg",
     "alt": "MongoDB Icon",
     "caption": "MongoDB"
@@ -27,12 +32,7 @@
   {
     "src": "/img/icons/icon-git.svg",
     "alt": "Git Icon",
-    "caption": "Git"
-  },
-  {
-    "src": "/img/icons/icon-vscode.svg",
-    "alt": "VS Code Icon",
-    "caption": "VS Code"
+    "caption": "Git & Github"
   },
   {
     "src": "/img/icons/icon-powerbi.svg",

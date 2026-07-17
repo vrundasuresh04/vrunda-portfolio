@@ -13,14 +13,6 @@ export default function Header1() {
       </div>
       <div className="header__controls d-flex justify-content-end">
         <ThemeSwitcherButton />
-        <a
-          id="notify-trigger"
-          className="header__trigger btn"
-          href="mailto:vrundasuresh@gmail.com?subject=Message%20from%20your%20site"
-        >
-          <span className="trigger__caption">Let&apos;s Talk</span>
-          <i className="ph-bold ph-chat-dots" />
-        </a>
       </div>
     </header>
   );

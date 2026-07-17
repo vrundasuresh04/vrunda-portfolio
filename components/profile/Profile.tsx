@@ -1,16 +1,100 @@
+"use client";
+
 import socials from "@/data/socials.json";
 import Image from "next/image";
+import { useState } from "react";
 
 export default function Profile({
   profileImage = "/img/avatars/1024x1024_a01.webp",
 }) {
+  const [isClickAnimating, setIsClickAnimating] = useState(false);
+
+  const handleLogoClick = () => {
+    if (isClickAnimating) return;
+    setIsClickAnimating(true);
+    setTimeout(() => {
+      setIsClickAnimating(false);
+    }, 800);
+  };
+
   return (
     <div id="avatar" className="avatar animate-fade">
       <div className="avatar__container d-flex flex-column justify-content-lg-between">
+        <style>{`
+          .logo__image-container {
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            border-radius: 24px;
+            display: inline-block;
+            transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+          }
+          .logo__image-container:hover {
+            transform: translateY(-2px) scale(1.03);
+            box-shadow: 0 8px 25px rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.15);
+          }
+          .logo__image-container::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -100%;
+            width: 50%;
+            height: 200%;
+            background: linear-gradient(
+              to right,
+              rgba(255, 255, 255, 0) 0%,
+              rgba(255, 255, 255, 0.45) 50%,
+              rgba(255, 255, 255, 0) 100%
+            );
+            transform: rotate(25deg);
+            pointer-events: none;
+          }
+          
+          .logo__image-container.animate-click {
+            animation: logo-click-bounce-custom 0.8s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+          }
+          .logo__image-container.animate-click::after {
+            animation: gloss-sweep-custom 0.8s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+          }
+
+          @keyframes gloss-sweep-custom {
+            0% {
+              left: -100%;
+            }
+            100% {
+              left: 200%;
+            }
+          }
+
+          @keyframes logo-click-bounce-custom {
+            0% {
+              transform: scale(1);
+            }
+            15% {
+              transform: scale(0.82) rotate(-8deg);
+            }
+            45% {
+              transform: scale(1.18) rotate(12deg);
+            }
+            70% {
+              transform: scale(0.94) rotate(-4deg);
+            }
+            100% {
+              transform: scale(1) rotate(0);
+            }
+          }
+        `}</style>
         {/* image and logo */}
         <div className="avatar__block">
           <div className="avatar__logo d-flex align-items-center">
-            <div className="logo__image">
+            <div 
+              className={`logo__image logo__image-container ${isClickAnimating ? "animate-click" : ""}`}
+              onClick={handleLogoClick}
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="85"
@@ -47,12 +131,13 @@ export default function Profile({
               <p>Vrunda S</p>
             </div>
           </div>
-          <div className="avatar__image">
+          <div className="avatar__image" style={{ aspectRatio: "1 / 1" }}>
             <Image
-              alt="Vrunda S - Personal Portfolio & Resume Avatar"
+              alt="Vrunda S – Full Stack Developer and AI/ML Enthusiast"
               src={profileImage}
               width={1024}
               height={1024}
+              style={{ objectFit: "cover", objectPosition: "center top", width: "100%", height: "100%" }}
               priority
             />
           </div>
