@@ -1,0 +1,38 @@
+[
+  {
+    "date": "2026 – Present",
+    "title": "Full Stack Developer Intern",
+    "agency": {
+      "name": "Tesseraflux",
+      "link": "#"
+    },
+    "description": "Currently working as a Full Stack Development Intern, designing, building, and maintaining responsive web applications and API integrations."
+  },
+  {
+    "date": "Internship",
+    "title": "Full Stack Web Development Intern",
+    "agency": {
+      "name": "Ecoders",
+      "link": "#"
+    },
+    "description": "Developed web applications using the MERN stack (MongoDB, Express, React, Node.js). Enhanced frontend responsiveness and optimized backend API integration for real-time data flow."
+  },
+  {
+    "date": "2025 – 2026",
+    "title": "Sergeant at Arms",
+    "agency": {
+      "name": "Rotaract Club of Nagasandra",
+      "link": "#"
+    },
+    "description": "Coordinated club activities, maintained organizational order during events, and supported community service initiatives."
+  },
+  {
+    "date": "2024 – 2025",
+    "title": "Vice President",
+    "agency": {
+      "name": "Rotaract Club of Surana College",
+      "link": "#"
+    },
+    "description": "Assisted the President in leading the club, planning events, and managing Rotaract activities for community service and leadership development."
+  }
+]

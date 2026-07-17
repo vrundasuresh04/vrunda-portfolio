@@ -1,0 +1,42 @@
+[
+  {
+    "src": "/img/icons/icon-python.svg",
+    "alt": "Python Icon",
+    "caption": "Python"
+  },
+  {
+    "src": "/img/icons/icon-react.svg",
+    "alt": "React Icon",
+    "caption": "React"
+  },
+  {
+    "src": "/img/icons/icon-mongodb.svg",
+    "alt": "MongoDB Icon",
+    "caption": "MongoDB"
+  },
+  {
+    "src": "/img/icons/icon-flask.svg",
+    "alt": "Flask Icon",
+    "caption": "Flask"
+  },
+  {
+    "src": "/img/icons/icon-mysql.svg",
+    "alt": "MySQL Icon",
+    "caption": "MySQL"
+  },
+  {
+    "src": "/img/icons/icon-git.svg",
+    "alt": "Git Icon",
+    "caption": "Git"
+  },
+  {
+    "src": "/img/icons/icon-vscode.svg",
+    "alt": "VS Code Icon",
+    "caption": "VS Code"
+  },
+  {
+    "src": "/img/icons/icon-powerbi.svg",
+    "alt": "Power BI Icon",
+    "caption": "Power BI"
+  }
+]

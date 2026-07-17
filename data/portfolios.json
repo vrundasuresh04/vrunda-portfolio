@@ -1,0 +1,69 @@
+[
+  {
+    "href": "/img/works/project1.png",
+    "dataImage": "/img/works/project1.png",
+    "src": "/img/works/project1.png",
+    "alt": "VK Real Estate Web Application",
+    "figcaptionClass": "gallery__descr",
+    "title": "VK RealEstate",
+    "titleClass": "",
+    "tags": [
+      { "text": "React", "className": "rounded-tag opposite" },
+      { "text": "Tailwind CSS", "className": "rounded-tag opposite" },
+      { "text": "Framer Motion", "className": "rounded-tag opposite" }
+    ],
+    "description": "Developed a responsive real estate website featuring smooth UI animations and client-side routing. Designed property listing and detail pages emphasizing user-centric navigation and performance.",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "href": "/img/works/project2.jpg",
+    "dataImage": "/img/works/project2.jpg",
+    "src": "/img/works/project2.jpg",
+    "alt": "VisionGuard AI",
+    "figcaptionClass": "gallery__descr opposite",
+    "title": "Visionguard-ai",
+    "titleClass": "opposite",
+    "tags": [
+      { "text": "YOLOv8", "className": "rounded-tag" },
+      { "text": "OpenCV", "className": "rounded-tag" },
+      { "text": "Flask", "className": "rounded-tag" }
+    ],
+    "description": "Developed a real-time computer vision system using YOLOv8 and OpenCV to detect mask compliance. Built a Flask-based dashboard with live analytics, chart visualization, and automated logging using SQLite.",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "href": "/img/works/project3.jpg",
+    "dataImage": "/img/works/project3.jpg",
+    "src": "/img/works/project3.jpg",
+    "alt": "Fake News Detection System",
+    "figcaptionClass": "gallery__descr opposite",
+    "title": "Fake news Detection",
+    "titleClass": "opposite",
+    "tags": [
+      { "text": "Python", "className": "rounded-tag" },
+      { "text": "Scikit-Learn", "className": "rounded-tag" },
+      { "text": "Streamlit", "className": "rounded-tag" }
+    ],
+    "description": "Engineered a classification model using TF-IDF vectorization and Multinomial Naive Bayes (92% accuracy). Deployed the model via an interactive Streamlit web app.",
+    "width": 1920,
+    "height": 1080
+  },
+  {
+    "href": "/img/works/project4.jpg",
+    "dataImage": "/img/works/project4.jpg",
+    "src": "/img/works/project4.jpg",
+    "alt": "Sales Analysis Dashboard",
+    "figcaptionClass": "gallery__descr",
+    "title": "Sales Analysis Dashboard",
+    "titleClass": "",
+    "tags": [
+      { "text": "Power BI", "className": "rounded-tag opposite" },
+      { "text": "DAX", "className": "rounded-tag opposite" }
+    ],
+    "description": "Built an interactive dashboard to visualize product-wise sales trends and critical KPI metrics.",
+    "width": 1920,
+    "height": 1080
+  }
+]

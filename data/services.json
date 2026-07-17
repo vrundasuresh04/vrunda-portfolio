@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Web Development",
+    "tags": ["MERN Stack", "React", "Node.js"],
+    "text": "Developed responsive web applications using MongoDB, Express, React, and Node.js with optimized API integration.",
+    "img": "/img/services/service_web_dev.png"
+  },
+  {
+    "title": "AI & Computer Vision",
+    "tags": ["YOLOv8", "OpenCV", "Flask"],
+    "text": "Designed and implemented real-time computer vision systems, such as face mask compliance detection.",
+    "img": "/img/services/service_computer_vision.png"
+  },
+  {
+    "title": "Machine Learning",
+    "tags": ["Python", "Scikit-Learn", "Streamlit"],
+    "text": "Engineered predictive models (e.g. Fake News detection using TF-IDF and Naive Bayes) and interactive web applications.",
+    "img": "/img/services/service_machine_learning.png"
+  },
+  {
+    "title": "Data Analytics & BI",
+    "tags": ["Power BI", "DAX", "Excel"],
+    "text": "Created interactive dashboards to visualize key metrics, KPI trends, and business performance analytics.",
+    "img": "/img/services/service_data_analytics.png"
+  }
+]

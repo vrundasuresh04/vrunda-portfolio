@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Location",
+    "text": "Bangalore, India",
+    "link": "https://maps.app.goo.gl/83wD55M3gX2J7h1e7",
+    "type": "location"
+  },
+  {
+    "title": "Phone",
+    "text": "+91-8088090791",
+    "link": "tel:+918088090791",
+    "type": "phone"
+  },
+  {
+    "title": "Email",
+    "text": "vrundasuresh@gmail.com",
+    "link": "mailto:vrundasuresh@gmail.com?subject=Message%20from%20your%20site",
+    "type": "email"
+  }
+]
