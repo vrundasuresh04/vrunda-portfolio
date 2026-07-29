@@ -82,7 +82,7 @@ export default function Intro() {
             data-duration="0.8"
             target="_blank"
           >
-            <span className="btn-caption">Download CV</span>
+            <span className="btn-caption">Look at my CV</span>
             <i className="ph-bold ph-download-simple" />
           </a>
         </div>

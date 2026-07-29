@@ -15,7 +15,7 @@
     "description": "Developed a responsive real estate website featuring smooth UI animations and client-side routing. Designed property listing and detail pages emphasizing user-centric navigation and performance.",
     "width": 1920,
     "height": 1080,
-    "repoUrl": "https://github.com/vrundasuresh04/VK_RealEstate"
+    "projectUrl": "https://github.com/vrundasuresh04/VK_RealEstate"
   },
   {
     "href": "/img/works/project2.jpg",
@@ -33,7 +33,7 @@
     "description": "Developed a real-time computer vision system using YOLOv8 and OpenCV to detect mask compliance. Built a Flask-based dashboard with live analytics, chart visualization, and automated logging using SQLite.",
     "width": 1920,
     "height": 1080,
-    "repoUrl": "https://github.com/vrundasuresh04/visionguard-ai"
+    "projectUrl": "https://github.com/vrundasuresh04/visionguard-ai"
   },
   {
     "href": "/img/works/project3.jpg",
@@ -51,7 +51,7 @@
     "description": "Engineered a classification model using TF-IDF vectorization and Multinomial Naive Bayes (92% accuracy). Deployed the model via an interactive Streamlit web app.",
     "width": 1920,
     "height": 1080,
-    "repoUrl": "https://github.com/vrundasuresh04/Fake-News-Detection-AI"
+    "projectUrl": "https://github.com/vrundasuresh04/Fake-News-Detection-AI"
   },
   {
     "href": "/img/works/project4.jpg",
@@ -68,6 +68,6 @@
     "description": "Built an interactive dashboard to visualize product-wise sales trends and critical KPI metrics.",
     "width": 1920,
     "height": 1080,
-    "repoUrl": "https://github.com/vrundasuresh04/Sales-Analysis-Dashboard"
+    "projectUrl": "https://github.com/vrundasuresh04/Sales-Analysis-Dashboard"
   }
 ]
