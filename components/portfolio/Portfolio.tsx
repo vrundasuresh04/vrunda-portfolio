@@ -184,7 +184,7 @@ export default function Portfolio() {
                             <polyline points="15 3 21 3 21 9" />
                             <line x1="10" y1="14" x2="21" y2="3" />
                           </svg>
-                          <span>View on Github</span>
+                          <span>View Code on GitHub</span>
                         </a>
                       </div>
                     )}

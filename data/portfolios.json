@@ -57,17 +57,19 @@
     "href": "/img/works/project4.jpg",
     "dataImage": "/img/works/project4.jpg",
     "src": "/img/works/project4.jpg",
-    "alt": "Sales Analysis Dashboard",
+    "alt": "Online Auction Bidding System",
     "figcaptionClass": "gallery__descr",
-    "title": "Sales Analysis Dashboard",
+    "title": "Online Auction",
     "titleClass": "",
     "tags": [
-      { "text": "Power BI", "className": "rounded-tag opposite" },
-      { "text": "DAX", "className": "rounded-tag opposite" }
+      { "text": "React.js", "className": "rounded-tag opposite" },
+      { "text": "Tailwind CSS", "className": "rounded-tag opposite" },
+      { "text": "Node.js", "className": "rounded-tag opposite" },
+      { "text": "MongoDB", "className": "rounded-tag opposite" }
     ],
-    "description": "Built an interactive dashboard to visualize product-wise sales trends and critical KPI metrics.",
+    "description": "Developed a scalable full-stack MERN application that enables real-time online bidding, featuring secure authentication, product listing & management, and dynamic UI updates.",
     "width": 1920,
     "height": 1080,
-    "projectUrl": "https://github.com/vrundasuresh04/Sales-Analysis-Dashboard"
+    "projectUrl": "https://github.com/vrundasuresh04/online-bidding-system"
   }
 ]
