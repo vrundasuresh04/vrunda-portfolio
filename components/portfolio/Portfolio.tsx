@@ -92,13 +92,6 @@ export default function Portfolio() {
                       itemProp="caption description"
                     >
                       <h5 className={item.titleClass}>{item.title}</h5>
-                      <div className="card__tags d-flex flex-wrap">
-                        {item.tags.map((tag, tagIdx) => (
-                          <span key={tagIdx} className={tag.className}>
-                            {tag.text}
-                          </span>
-                        ))}
-                      </div>
                       <p className="small">{item.description}</p>
                     </figcaption>
                   </a>
