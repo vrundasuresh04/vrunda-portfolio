@@ -166,6 +166,26 @@ html {
   }
 }
 
+#portfolio .gallery__link {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  background-color: var(--base-tint);
+}
+#portfolio .gallery__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+#portfolio .gallery__link .picture {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+
 .promo-image,
 .animate-in-up,
 .animate-fade,
