@@ -1,8 +1,13 @@
 "use client";
-import { useEffect, useState } from "react";
 
-export default function ThemeSwitcherButton({
-  parentClass = "color-switcher header__switcher btn",
-}) {
+interface ThemeSwitcherButtonProps {
+  parentClass?: string;
+}
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export default function ThemeSwitcherButton({ parentClass = "color-switcher header__switcher btn" }: ThemeSwitcherButtonProps) {
   return null;
 }
+
+
+

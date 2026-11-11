@@ -18,6 +18,47 @@
     "projectUrl": "https://github.com/vrundasuresh04/VK_RealEstate"
   },
   {
+    "href": "/img/works/neu-surface-defect.jpg",
+    "dataImage": "/img/works/neu-surface-defect.jpg",
+    "src": "/img/works/neu-surface-defect.jpg",
+    "alt": "NEU Surface Defect Detection & Explainable AI",
+    "figcaptionClass": "gallery__descr opposite",
+    "title": "NEU Surface Defect Detection & Explainable AI",
+    "titleClass": "opposite",
+    "tags": [
+      { "text": "Python", "className": "rounded-tag" },
+      { "text": "PyTorch", "className": "rounded-tag" },
+      { "text": "ResNet18", "className": "rounded-tag" },
+      { "text": "Grad-CAM", "className": "rounded-tag" },
+      { "text": "Streamlit", "className": "rounded-tag" }
+    ],
+    "description": "Developed an AI-powered industrial surface defect detection system using ResNet18 to classify six types of steel surface defects. Integrated Grad-CAM explainability and built a Streamlit application for interactive predictions and visual analysis.",
+    "width": 1024,
+    "height": 485,
+    "projectUrl": "https://github.com/vrundasuresh04/NEU-Surface-Defect-Detection"
+  },
+  {
+    "href": "/img/works/enterprise-rag-assistant.jpg",
+    "dataImage": "/img/works/enterprise-rag-assistant.jpg",
+    "src": "/img/works/enterprise-rag-assistant.jpg",
+    "alt": "Enterprise RAG Assistant",
+    "figcaptionClass": "gallery__descr opposite",
+    "title": "Enterprise RAG Assistant",
+    "titleClass": "opposite",
+    "tags": [
+      { "text": "React", "className": "rounded-tag" },
+      { "text": "Python", "className": "rounded-tag" },
+      { "text": "TypeScript", "className": "rounded-tag" },
+      { "text": "Gemini API", "className": "rounded-tag" },
+      { "text": "RAG", "className": "rounded-tag" },
+      { "text": "Vector Search", "className": "rounded-tag" }
+    ],
+    "description": "Developed an AI-powered Enterprise RAG Assistant for document-based question answering using Retrieval-Augmented Generation. Features semantic document retrieval, chunk and citation exploration, grounded responses, hallucination guardrails, and an evaluation dashboard for assessing answer accuracy and reliability.",
+    "width": 1024,
+    "height": 757,
+    "projectUrl": "https://github.com/vrundasuresh04/enterprise-document-qa-rag"
+  },
+  {
     "href": "/img/works/project2.jpg",
     "dataImage": "/img/works/project2.jpg",
     "src": "/img/works/project2.jpg",
@@ -34,42 +75,5 @@
     "width": 1920,
     "height": 1080,
     "projectUrl": "https://github.com/vrundasuresh04/visionguard-ai"
-  },
-  {
-    "href": "/img/works/project3.jpg",
-    "dataImage": "/img/works/project3.jpg",
-    "src": "/img/works/project3.jpg",
-    "alt": "Fake News Detection System",
-    "figcaptionClass": "gallery__descr opposite",
-    "title": "Fake news Detection",
-    "titleClass": "opposite",
-    "tags": [
-      { "text": "Python", "className": "rounded-tag" },
-      { "text": "Scikit-Learn", "className": "rounded-tag" },
-      { "text": "Streamlit", "className": "rounded-tag" }
-    ],
-    "description": "Engineered a classification model using TF-IDF vectorization and Multinomial Naive Bayes (92% accuracy). Deployed the model via an interactive Streamlit web app.",
-    "width": 1920,
-    "height": 1080,
-    "projectUrl": "https://github.com/vrundasuresh04/Fake-News-Detection-AI"
-  },
-  {
-    "href": "/img/works/project4.jpg",
-    "dataImage": "/img/works/project4.jpg",
-    "src": "/img/works/project4.jpg",
-    "alt": "Online Auction Bidding System",
-    "figcaptionClass": "gallery__descr",
-    "title": "Online Auction",
-    "titleClass": "",
-    "tags": [
-      { "text": "React.js", "className": "rounded-tag opposite" },
-      { "text": "Tailwind CSS", "className": "rounded-tag opposite" },
-      { "text": "Node.js", "className": "rounded-tag opposite" },
-      { "text": "MongoDB", "className": "rounded-tag opposite" }
-    ],
-    "description": "Developed a scalable full-stack MERN application that enables real-time online bidding, featuring secure authentication, product listing & management, and dynamic UI updates.",
-    "width": 1920,
-    "height": 1080,
-    "projectUrl": "https://github.com/vrundasuresh04/online-bidding-system"
   }
 ]
