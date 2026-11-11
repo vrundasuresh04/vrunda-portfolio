@@ -116,6 +116,9 @@ export default function Portfolio() {
           ref: captionsRef,
           descriptionTextAlign: "center",
         }}
+        controller={{
+          touchAction: "pan-y",
+        }}
         className="yarl__portfolio"
         fullscreen={{ ref: fullscreenRef }}
         on={{
@@ -129,58 +132,58 @@ export default function Portfolio() {
             const tags = item?.tags;
             const projectUrl = item?.projectUrl;
             return (
-              <div className="d-flex flex-column">
-                {children}
+              <div
+                className="yarl__portfolio-slide"
+                data-lenis-prevent
+              >
+                <div className="yarl__portfolio-content">
+                  {children}
 
-                <div className="pswp__caption" style={{ position: "static" }}>
-                  <div className="pswp__caption__center">
-                    <h5>{slide.title}</h5>
-                    <div className="card__tags d-flex flex-wrap">
-                      {tags?.map((tag, i) => (
-                        <span key={i} className="rounded-tag opposite">
-                          {tag.text}
-                        </span>
-                      ))}
-                    </div>
-                    <p className="small">{slide.description}</p>
-                    {projectUrl && (
-                      <div className="mt-3 text-center">
-                        <a
-                          href={projectUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn btn-default btn-hover btn-hover-accent"
-                          style={{
-                            display: "inline-flex",
-                            alignItems: "center",
-                            gap: "8px",
-                            padding: "8px 24px",
-                            fontSize: "1.4rem",
-                            borderRadius: "30px",
-                            textTransform: "uppercase",
-                            fontWeight: 600,
-                            letterSpacing: "0.5px"
-                          }}
-                        >
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="16"
-                            height="16"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          >
-                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-                            <polyline points="15 3 21 3 21 9" />
-                            <line x1="10" y1="14" x2="21" y2="3" />
-                          </svg>
-                          <span>View Code on GitHub</span>
-                        </a>
+                  <div
+                    className="pswp__caption"
+                    style={{ position: "static" }}
+                    onClick={(e) => e.stopPropagation()}
+                    onPointerDown={(e) => e.stopPropagation()}
+                  >
+                    <div className="pswp__caption__center">
+                      <h5>{slide.title}</h5>
+                      <div className="card__tags d-flex flex-wrap">
+                        {tags?.map((tag, i) => (
+                          <span key={i} className="rounded-tag opposite">
+                            {tag.text}
+                          </span>
+                        ))}
                       </div>
-                    )}
+                      <p className="small">{slide.description}</p>
+                      {projectUrl && (
+                        <div className="portfolio__github-actions">
+                          <a
+                            href={projectUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="portfolio__github-btn"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="16"
+                              height="16"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              aria-hidden="true"
+                            >
+                              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                              <polyline points="15 3 21 3 21 9" />
+                              <line x1="10" y1="14" x2="21" y2="3" />
+                            </svg>
+                            <span>View Code on GitHub</span>
+                          </a>
+                        </div>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>

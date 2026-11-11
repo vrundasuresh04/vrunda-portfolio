@@ -18,8 +18,101 @@ html {
 .yarl__root {
   --yarl__color_backdrop: #212121;
 }
+.yarl__portfolio .yarl__slide {
+  overflow: hidden;
+  padding: 0;
+}
+.yarl__portfolio-slide {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 68px 16px 28px;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  .yarl__portfolio-slide {
+    padding: 68px 72px 32px;
+  }
+}
+.yarl__portfolio-content {
+  margin: auto 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.yarl__portfolio .yarl__slide_wrapper {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  flex: 0 0 auto;
+}
+.yarl__portfolio .yarl__slide_wrapper_interactive {
+  position: relative;
+  z-index: 2;
+}
 .yarl__slide_image {
-  max-height: calc(100vh - 320px) !important;
+  max-height: clamp(220px, 46vh, 480px) !important;
+  width: auto;
+  max-width: 100%;
+}
+.yarl__portfolio .pswp__caption {
+  width: 100%;
+  padding: 1.4rem 0 0;
+}
+.yarl__portfolio .pswp__caption__center {
+  width: 100%;
+  max-width: min(640px, 100%);
+  margin: 0 auto;
+  padding: 1.8rem 2rem;
+}
+@media (min-width: 576px) {
+  .yarl__portfolio .pswp__caption__center {
+    padding: 2.2rem 2.6rem;
+  }
+}
+.yarl__portfolio .pswp__caption__center h5 {
+  margin-bottom: 1rem;
+}
+.yarl__portfolio .pswp__caption__center p {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.portfolio__github-actions {
+  margin-top: 1.8rem;
+  display: flex;
+  justify-content: center;
+}
+.portfolio__github-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  padding: 1.1rem 2.4rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--secondary) 100%);
+  color: var(--t-opp-bright);
+  font: normal 600 1.4rem/1.2 var(--_font-default);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  transition: transform 0.25s var(--_animbezier), filter 0.25s ease;
+}
+.portfolio__github-btn svg {
+  flex-shrink: 0;
+  display: block;
+}
+.portfolio__github-btn:hover {
+  transform: translateY(-1px) scale(1.02);
+  color: var(--t-opp-bright);
+  filter: brightness(1.05);
 }
 .yarl__button.yarl__navigation_prev,
 .yarl__button.yarl__navigation_next {
